@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <title>Responsive Design Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 </head>
 
   <body>
 
-    <header><a id="home"></a>
+    <header>
       <div class="container">
         <h1 class="name">Jacki Bolt</h1>
         <nav>
@@ -99,12 +99,16 @@
 
     <footer>
       <div class='line'></div>
-      <div class="footer">
-        <ul class="foot">
-          <li id="name">Jacki Bolt</li>
-          <li id="link"><a href="#home">Back to Top</a></li>
-        </ul>
-      </div>
+        <div class="f-wrap">
+          <h4 id="name">Jacki Bolt</h4>
+          <ul class="foot">
+            <li id="link" class="f-link"><a href="#top">Back to Top</a></li>
+            <li class="f-nav f-link"><a href="#top">Home</li>
+            <li class="f-nav f-link"><a href="#portfolio">Portfolio</li>
+            <li class="f-nav f-link"><a href="#skills">Skills</li>
+            <li class="f-nav f-link"><a href="#contact">Contact</li>
+          </ul>
+        </div>
     </footer>
 
   </body>
